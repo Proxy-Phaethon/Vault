@@ -18,33 +18,6 @@
 - **Authentication:** Firebase/Auth0
 - **Deployment:** Vercel/Netlify + AWS
 
-## Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/vault.git
-
-# Navigate to the project directory
-cd vault
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-## Roadmap
-
-- [ ] Implement social media and contact integrations
-- [ ] Expand portfolio templates & themes
-- [ ] Add analytics dashboard for engagement tracking
-- [ ] Enable real-time collaboration features
-
-## Contributing
-
-I welcome contributions! Feel free to **fork** the repository, submit PRs, or open issues for suggestions.
-
 ## License
 
 MIT License © 2025 Vault by Zia Hawwa
