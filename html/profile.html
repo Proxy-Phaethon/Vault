@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vault | Profile</title>
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+<header>
+  <div class="logo">Vault</div>
+</header>
+
+<div class="navbar">
+  <nav>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="feature.html">Featured</a></li>
+      <li><a href="profile.html">Profile</a></li>
+    </ul>
+  </nav>
+</div>
+
+  <main class="profile-page">
+    <div class="sidebar">
+      <ul class="sidebar-nav">
+        <li><a href="#" class="active" onclick="showContent('account')">Account</a></li>
+        <li><a href="#" onclick="showContent('privacy')">Privacy</a></li>
+        <li><a href="#" onclick="showContent('notifications')">Notifications</a></li>
+        <li><a href="#" onclick="showContent('security')">Security</a></li>
+        <li><a href="#" onclick="showContent('billing')">Billing</a></li>
+        <li><a href="#" onclick="showContent('api')">API</a></li>
+      </ul>
+    </div>
+
+    <div class="content-area">
+      <div id="account" class="content-section active">
+        <h2>Account Settings</h2>
+        <p>This is where you can manage your account settings.</p>
+      </div>
+
+      <div id="privacy" class="content-section">
+        <h2>Privacy Settings</h2>
+        <p>This is where you can manage your privacy settings.</p>
+      </div>
+
+      <div id="notifications" class="content-section">
+        <h2>Notifications Settings</h2>
+        <p>This is where you can manage your notifications preferences.</p>
+      </div>
+
+      <div id="security" class="content-section">
+        <h2>Security Settings</h2>
+        <p>This is where you can manage your security settings.</p>
+      </div>
+
+      <div id="billing" class="content-section">
+        <h2>Billing Settings</h2>
+        <p>This is where you can manage your billing information.</p>
+      </div>
+
+      <div id="api" class="content-section">
+        <h2>API Settings</h2>
+        <p>This is where you can manage your API settings.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Vault. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/js/profile.js"></script>
+
+</body>
+</html>
